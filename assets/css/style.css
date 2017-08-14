@@ -14,3 +14,13 @@ p{
 	/*background-size: cover;*/
 	/*height: 100%;*/
 }
+#alreadyGuessedLetter{
+	font-size: 150%;
+}
+h1{
+	font-family: harrington;
+	font-size: 50px;
+}
+h3{
+	color:#7B68EE;
+}
