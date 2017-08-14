@@ -1,18 +1,11 @@
 .wrapper {
 
  font-family: verdana;
- /*font-size: 300%;*/
  color: red;
 }
 
 p{
 	/*font-size: 400px;*/
-}
-.image{
-	background-image: url("http://cnsoup.com/data/out/302/IMW708307622.jpg");
-	background-repeat: no-repeat;
-	/*background-size: cover;*/
-	/*height: 100%;*/
 }
 #alreadyGuessedLetter{
 	font-size: 150%;
