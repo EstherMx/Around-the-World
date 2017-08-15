@@ -1,23 +1,18 @@
 
+var arrayWordByLetter = [ "GERMANY","VENEZUELA", "EGYPT", "AUSTRIA","TURKEY","COLOMBIA","INDIA","SWITZERLAND"];
 
-<script type="text/javascript">
-	
-	var arrayWordByLetter = [
-["G","E","R","M","A","N","Y"],
-  ["V","E","N","E","Z","U","E","L","A"],
-  ["E","G","Y","P","T"],
-  ["A","U","S","T","R","I","A"],
-  ["T","U","R","K","E","Y"],
-  ["C","O","L","O","M","B","I","A"],
-  ["I","N","D","I","A"],
-  ["S","W","I","T","Z","E","R","L","A","N","D"]
-]
 var random = Math.floor((Math.random()*(arrayWordByLetter.length-1))); 
 
 var randomWordToGuessPicked = arrayWordByLetter[random]; 
 
+
 var foundWord = true;
 var tries = 6;
+
+
+
+  // Reprints the guessesLeft to 9
+  document.getElementById("guesses-left").innerHTML = numGuesses;
 
 
 //the new Array () makes the number of dash displayed equal the length of the argument:randomWordToGuessPicked
@@ -79,7 +74,5 @@ document.onkeyup = function(){
 window.onload = init;
 function init(){
 	printdash();
+	tries=9;
 }
-
-
-</script>
